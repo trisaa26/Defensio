@@ -1883,6 +1883,12 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .header ul {
+    transform: translateY(30%);
+  }
+  .header ul li {
+    padding-bottom: 60px;
+  }
   .services .slick-prev {
     left: 65%;
   }
